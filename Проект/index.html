@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="comment.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="slaid/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet"> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="slaid/script.js"></script>
+	<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // инициализация слайдера
+      var slider = new SimpleAdaptiveSlider('.slider', {
+        autoplay: true,
+        interval: 5000,
+        swipe: true,
+      });
+    });
+  </script>
+  <style>
+    /* стили для элемента body */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    }
+    .slider__items {
+      counter-reset: slide;
+    }
+
+    .slider__item {
+      counter-increment: slide;
+    }
+
+    .slider__item>div::before {
+      content: counter(slide);
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+    }
+  </style>
+	<title>ПРОЕКТ</title>
+</head>
+<body>
+<main class="main">
+	<div class="fix">
+		<div class="header">
+			<div class="logo">
+				<p><a href="index.html">BEST SPEED</a></p>
+			</div>
+			<div class="nav">
+				<div class="nav-el"><a href="cat.html">каталог</a></div>
+				<div class="nav-el"><a href="gal.html">галерея</a></div>
+				<div class="nav-el"><a href="navi.html">навигация</a></div>
+			</div>
+			<!-- тут -->
+			<div class="num">+7-960-526-11-77</div>
+		</div>
+	</div>
+	<div class="fird">
+		<p class="first-line ani">BEST SPEED</p>
+		<p class="second-line ani">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, libero est. <br> Magnam omnis, impedit eaque enim alias a, excepturi autem molestiae officia repellat similique, unde, quas ex repellendus porro aut?</p>
+	</div>
+	<div class="second">
+		 <div class="slider">
+   		 <div class="slider__wrapper">
+     	 <div class="slider__items">
+       	 <div class="slider__item">
+         <div style="height: 100%; background: url(img/s1.jpg); background-repeat: no-repeat; background-position: bottom; background-size: cover;
+		"></div>
+       	 </div>
+       	 <div class="slider__item">
+          <div style="height: 100%; background: url(https://wallpapershome.ru/images/pages/pic_h/2343.jpg); background-size: cover; background-repeat: no-repeat; background-position: bottom; background-size: cover;
+		"></div>
+       	 </div>
+         <div class="slider__item">
+         <div style="height: 100%; background: url(https://i.playground.ru/p/mjckdxAimUtR1ZLKnPgzkg.jpeg); background-repeat: no-repeat; background-position: bottom; background-size: cover;
+		"></div>
+       	 </div>
+       	 <div class="slider__item">
+         <div style="height: 100%; background: url(https://i.artfile.me/wallpaper/13-04-2015/1920x1080/avtomobili-volkswagen-vw-923353.jpg); background-repeat: no-repeat; background-position: bottom; background-size: cover;
+		"></div>
+       	 </div>
+      	</div>
+    	</div>
+   		 <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+    		<a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+ 	 	</div>
+	</div>
+	<div class="third">
+		<div class="third-head">
+			<p>О НАС</p>
+		</div>
+		<!-- тут -->
+		<div class="third-img">
+			<div>
+				<img src="img/third1 (2).png" style="width: 7em;">
+				<p>5 ЗВЁЗД</p>
+			</div>
+			<div>
+				<img src="img/third2.png" style="width: 7em;">
+				<p>ГАРАНТИЯ</p>
+			</div>
+			<div>
+				<img src="img/third3.png" style="width: 7em;">
+				<p>ДЕШЕВЛЕ</p>
+			</div>
+			<div>
+				<img src="img/third4.png" style="width: 7em;">
+				<p>ЛУЧШИЕ НА РЫНКЕ</p>
+			</div>
+			
+		</div>
+
+		<div class="comment">
+			<form action="" class="r">
+				<input type="textarea" name="" class="insert" placeholder="Оставьте свой отзыв:">
+				<input type="submit" name="" class="sub">
+			</form>
+			<div class="t">
+				<div class="ava">
+					
+				</div>
+				<div class="tex">
+					<h4>Имя человека</h4>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptas animi, fuga excepturi reprehenderit, soluta impedit perferendis harum vitae, provident minus. Vitae iure recusandae tenetur minus laboriosam eos eaque molestiae.
+					</p>
+				</div>
+
+			</div>
+			<div class="t">
+				<div class="ava">
+					
+				</div>
+				<div class="tex">
+					<h4>Имя человека</h4>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptas animi, fuga excepturi reprehenderit, soluta impedit perferendis harum vitae, provident minus. Vitae iure recusandae tenetur minus laboriosam eos eaque molestiae.
+					</p>
+				</div>
+				
+			</div>
+			<div class="t">
+				<div class="ava">
+					
+				</div>
+				<div class="tex">
+					<h4>Имя человека</h4>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptas animi, fuga excepturi reprehenderit, soluta impedit perferendis harum vitae, provident minus. Vitae iure recusandae tenetur minus laboriosam eos eaque molestiae.
+					</p>
+				</div>
+				
+			</div>
+
+		</div>
+
+	</div>
+	<div class="footer">
+		<div class="cont">
+			<ul>
+				<li>torch1top@gmail.com</li>
+				<li>+7 960 526 11 77</li>
+				<li>Ул. Беброва</li>
+				<li>о нас</li>
+			</ul>
+		</div>
+	</div>
+</main>
+</body>
+</html>

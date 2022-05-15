@@ -1,0 +1,186 @@
+.comment {
+	width: 50%;
+	border: 1px solid black;
+	margin: auto;
+	background: #d3d3db;
+}
+
+.insert {
+	background: #e3e3ef;
+	width: 95%;
+	margin: 2.5%;
+	height: 5em;
+}
+
+.sub {
+	margin-left: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.t{
+	width: calc(100% - 2px);
+	min-height: 4em;
+	background: #e3e3ef;
+	border: 1px dotted black;
+	display: flex;
+	justify-content: space-between;
+}
+.ava {
+	width: 50px;
+	height: 50px;
+	border: 1px solid gold;
+}
+.tex {
+	width: calc(100% - 50px - 10px);
+}
+
+/*@keyframes shadow {
+	from {text-shadow: 0 0 3px black;}
+	50% {text-shadow: 0 10px 30px black;}
+	to {text-shadow: 0 0 3px black;}
+}
+
+.ani {
+	animation: shadow  2s infinite ease-in-out;
+}*/
+
+/*первый вариант*/
+/*.ani,
+.ani::after {
+  animation-delay: 0;
+  animation-delay: var(--animation-delay, 2s);
+  animation-iteration-count: 1;
+  animation-iteration-count: var(--iterations, 1);
+  animation-duration: 800ms;
+  animation-duration: var(--duration, 800ms);
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.ani {
+  animation-name: text;
+ }
+
+.ani::after {
+  content: "";
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(198, 249, 241, 0.59);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  pointer-events: none;
+  animation-name: revealer;
+  }
+
+@keyframes text {
+  from {
+  clip-path: inset(0 100% 0 0);
+  }
+  to {
+  clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes revealer {
+   
+  0%, 50% {
+  transform-origin: 0 50%;
+  }
+   
+  60%, 100% {
+  transform-origin: 100% 50%;  
+  }
+
+   
+  60% {
+  transform: scaleX(1);
+  }
+   
+  100% {
+  transform: scaleX(0);
+  }
+}*/
+/*первый вариант*/
+
+
+
+/*второй вариант*/
+
+.fird {
+  
+  background: linear-gradient(141deg, #cddfec 25%, #fbddff 40%, #f5c3e5 55%);
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.ani {
+  
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ani:first-of-type {
+  animation: showup 7s infinite;
+}
+.ani:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+.ani:last-of-type span {
+  margin-left: -355px;
+  animation: slidein 7s infinite;
+}
+@keyframes showup {
+  0% {
+  opacity: 0;
+  }
+  20% {
+  opacity: 1;
+  }
+  80% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+  margin-left: -800px;
+  }
+  20% {
+  margin-left: -800px;
+  }
+  35% {
+  margin-left: 0px;
+  }
+  100% {
+  margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+  opacity: 0;
+  width: 0px;
+  }
+  20% {
+  opacity: 1;
+  width: 0px;
+  }
+  30% {
+  width: 100%;
+  }
+  80% {
+  opacity: 1;
+  }
+  100% {
+  opacity: 0;
+  width: 100%;
+  }
+}
