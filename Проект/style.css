@@ -24,6 +24,7 @@
 	height: 100%;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Playfair Display', serif;
 	font-family: 'Roboto', sans-serif;
 }
 .nav-el{
@@ -32,14 +33,12 @@
 	font-size: 23px;
 	padding-bottom: 1em;
 }
-/*тут*/
-.nav-el a{
-	text-decoration: none;
-}
 .nav-el:hover {
 	border-bottom: 4px solid #785964;
 }
-/*тут*/
+.nav-el a{
+	text-decoration: none;
+}
 .num{
 	width: 10%;
 	height: 100%;
@@ -66,16 +65,16 @@
 }
 .third{
 	width: 100%;
-	height: 51em;
+	height: 100%;
 }
 .third-img{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-/*тут*/
 .third-img div{
-	margin-left: 1%;
+	padding-top: 5%;
+	margin-left: 2%;
 	text-align: center;
 }
 .third-head{
@@ -118,7 +117,6 @@ ul.cont{
 	justify-content: center;
 	padding-top: 3%;
 }
-/*тут*/
 .gal{
 	width: 100%;
 	height: calc(100%/* - 3em*/);
@@ -151,8 +149,6 @@ ul.cont{
 	font-family: 'Koulen', cursive;
 	font-family: 'Oswald', sans-serif;
 	padding-left: 4%;
-	width: 100%;
-	display: block;
 }
 .price{
 	font-family: 'Playfair Display', serif;
@@ -166,7 +162,7 @@ ul.cont{
 	margin: auto;
 	column-count: 3;
 	column-gap: 2;
-	
+	width: 100%;
 	height: calc(100% - 3em);
 }
 
@@ -188,6 +184,5 @@ ul.cont{
 .c{
 	width: 100%;
 	height: 300px;
-	border: 1px solid red;
+	border: 1px solid black;
 }
-

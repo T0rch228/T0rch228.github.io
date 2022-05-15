@@ -1,7 +1,6 @@
 .comment {
-	width: 50%;
+	width: 100%;
 	border: 1px solid black;
-	margin: auto;
 	background: #d3d3db;
 }
 
@@ -28,7 +27,7 @@
 .ava {
 	width: 50px;
 	height: 50px;
-	border: 1px solid gold;
+	border: 1px solid black;
 }
 .tex {
 	width: calc(100% - 50px - 10px);
@@ -45,7 +44,7 @@
 }*/
 
 /*первый вариант*/
-/*.ani,
+.ani,
 .ani::after {
   animation-delay: 0;
   animation-delay: var(--animation-delay, 2s);
@@ -69,7 +68,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(198, 249, 241, 0.59);
   transform: scaleX(0);
   transform-origin: 0 50%;
   pointer-events: none;
@@ -110,7 +108,7 @@
 
 /*второй вариант*/
 
-.fird {
+/*.fird {
   
   background: linear-gradient(141deg, #cddfec 25%, #fbddff 40%, #f5c3e5 55%);
   overflow: hidden;

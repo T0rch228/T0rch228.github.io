@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.logo{
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+	max-height: 3em;
+}
+.fix{
+	position: fixed;
+	width: 100%;
+	z-index: 100000000;
+}
+.header{
+	background: #D5C7BC;
+	width: 100%;
+	height: 3em;
+	display: flex;
+}
+.nav{
+	display: flex;
+	width: 75%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+}
+.nav-el{
+	text-align: center;
+	width: 200px;
+	font-size: 23px;
+	padding-bottom: 1em;
+}
+.nav-el:hover {
+	border-bottom: 4px solid #785964;
+}
+.num{
+	width: 10%;
+	height: 60%;
+	font-size: 13px;
+}
+.fird{
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+	background: url(https://happy-car.kiev.ua/image/ic/nano-car.png.pagespeed.ce.7QbkUfQFfl.png);
+	width: 100%;
+	height: calc(100% - 3em);
+}
+.first-line{
+	font-size: 50px;
+	padding-top: 15%;
+	padding-left: 15%;
+}
+.second-line{
+	padding-left: 15%;
+}
+.third{
+	width: 100%;
+	height: 51em;
+}
+.third-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.third-head{
+	text-align: center;
+	font-size: 90px;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10%;
+}
+a{
+	color: black;
+	list-style: none;
+}
+html, body, main{
+	height: 100%;
+}
+.second{
+	width: 100%;
+	height: 100%;
+}
+.footer{
+	height: 15%;
+	width: 100%;
+	background: grey;
+}
+ul.cont{
+	margin: 3px; 
+	padding: 3px; 
+}
+.cont li{
+	display: inline;  
+	margin-right: 3px;  
+	color: white;
+	opacity: 0.4;
+	padding: 5px;  
+}
+.cont{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3%;
+}
+.gal{
+	width: 100%
+	height: calc(100% - 3em);
+}
+.navi{
+	padding-top: 17%;
+	padding-left: 16%;
+}
+.navi p{
+	padding-bottom: 1%;
+	font-size: 50px;
+}
+.na{
+	font-size: 25px;
+	padding-left: 2%;
+}
+.cat{
+	padding-top: 3em;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+}
+.cat-head{
+	font-size: 50px;
+	padding-top: 3%;
+	padding-left: 6%;
+}
+.car-head{
+	font-size: 27px;
+	font-family: 'Koulen', cursive;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 4%;
+	width: 100%;
+	display: block;
+}
+.price{
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 4%;
+}
+.eco {
+	width: 80%;
+	min-height: 100px;
+	max-height: 70%;
+	margin: auto;
+	column-count: 3;
+	column-gap: 2;
+	
+	height: calc(100% - 3em);
+}
+
+.e {	
+	width: 100%;
+	height: 300px;
+	border: 1px solid black;
+}
+.sta{
+	padding-top: 200%;
+	width: 80%;
+	min-height: 100px;
+	margin: auto;
+	column-count: 3;
+	column-gap: 2;
+	
+	height: calc(100% - 3em);
+}
+.c{
+	width: 100%;
+	height: 300px;
+	border: 1px solid red;
+}
+
