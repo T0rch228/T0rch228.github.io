@@ -1,0 +1,180 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body, main{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	font-size: 27px;
+	font-family: 'Oswald', sans-serif;
+	max-height: 3em;
+	padding-top: 0.5%;
+	padding-left: 5%;
+}
+.fix{
+	position: fixed;
+	width: 100%;
+	z-index: 100000000;
+}
+.header{
+	background: black;
+	width: 100%;
+	height: 3em;
+	display: flex;
+}
+.nav{
+	display: flex;
+	width: 75%;
+	height: 100%;
+	margin-left: 40%;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+}
+.nav-el{
+	text-align: center;
+	width: 200px;
+	font-size: 19px;
+	padding-bottom: 1em;
+	color: white;
+}
+
+.nav-el:hover {
+	border-bottom: 4px solid white;
+}
+.ax{
+	color: white;
+}
+.fird{
+	width: 100%;
+	height: calc(100% - 3em);
+	background: #808080;
+	padding-top: 3em;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+	max-height: calc(100% - 3em);
+}
+.fird-head{
+	font-size: 100px;
+	color: white;
+	padding-top: 7%;
+	padding-left: 10%;
+}
+.fird-txt{
+	color: white;
+	padding-left: 10%;
+	font-size: 40px;
+	padding-top: 3%;
+}
+.line{
+	padding-left: 10%;
+	padding-top: 1%		
+}
+.d{
+	color: white;
+	font-size: 25px;
+	border: 1px solid white;
+	width: 6.7%;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+.fird-txt2{
+	color: white;
+	padding-left: 10%;
+	font-size: 20px;
+	padding-top: 4%;
+}
+.reg{
+	margin-right: 2%;
+}
+.second{
+	width: 100%;
+	height: 100%;
+}
+.s-head{
+	font-family: 'Koulen', cursive;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 18%;
+	font-size: 40px;
+	padding-top: 13%;
+}
+.s-txt{
+	padding-left: 18%;
+	padding-top: 7%;
+	font-size: 20px
+}
+.s-txt2{
+	padding-left: 18%;
+	padding-top: 3%;
+	font-size: 20px
+}
+.d2{
+	padding-top: 5%;
+	padding-left: 18%;
+}
+.third{
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	background: #d8d8d8;
+	font-family: 'Koulen', cursive;
+	font-family: 'Oswald', sans-serif;
+
+}
+.t-img{
+	padding-top: 15%;
+	padding-left: 3%;
+}
+.third-head{
+	padding-top: 10%;
+	margin-left: 60%;
+	font-size: 40px;
+}
+.line2{
+	margin-left: 60%;
+}
+.third-txt{
+	padding-left: 60%;
+	padding-top: 3%;
+}
+.third-txt2{
+	padding-left: 60%;
+	padding-top: 7%;
+}
+.third-txt3{
+	padding-left: 60%;
+	padding-top: 3%;
+}
+.fourth{
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	font-family: 'Koulen', cursive;
+	font-family: 'Oswald', sans-serif;
+}
+.f-img{
+	padding-top: 15%;
+	padding-right: 3%;
+}
+.f-head{
+	padding-top: 10%;
+	font-size: 40px;
+	padding-left: 9%;
+}
+.f-head{
+	margin-left: 9%;
+	margin-top: 9%;
+}
+.fourth-txt{
+	max-width: 50%;
+	padding-top: 2%;
+}
+.f-txt{
+	padding-top: 9%;
+	padding-left: 10%;
+}
+.line3{
+	margin-top: 7%;
+	margin-left: 10%;
+}
