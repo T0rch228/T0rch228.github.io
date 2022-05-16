@@ -178,3 +178,63 @@ html, body, main{
 	margin-top: 7%;
 	margin-left: 10%;
 }
+.fifth{
+	width: 100%;
+	height: 100%;
+	background: #dbdbdb;
+	font-family: 'Oswald', sans-serif;
+}
+.fif-head{
+	padding-top: 5%;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Truculenta', sans-serif;
+}
+.line4{
+	margin-top: 4%;
+	margin-left: 42%;
+}
+.fif-txt{
+	text-align: center;
+	padding-top: 2%;
+}
+.icone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icone div{
+	padding-top: 5%;
+	margin-left: 0.1%;
+	text-align: center;
+}
+.ico-txt{
+	font-size: 25px;
+	padding-top: 2%;
+}
+.ic{
+	font-size: 10px;
+	padding-top: 5%;
+}
+.footer{
+	height: 15%;
+	width: 100%;
+	background: black;
+}
+ul.cont{
+	margin: 3px; 
+	padding: 3px; 
+}
+.cont li{
+	display: inline;  
+	margin-right: 3px;  
+	color: white;
+	opacity: 0.4;
+	padding: 5px;  
+}
+.cont{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3%;
+}
