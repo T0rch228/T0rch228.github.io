@@ -1,0 +1,222 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+}
+.fix{
+	position: fixed;
+	width: 100%;
+	z-index: 100000000;
+}
+.header{
+	width: 100%;
+	height: 4em;
+	background: black;
+	color: white;
+}
+.nav{
+	display: flex;
+	width: 100%;
+	height: 1%;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+}
+.nav-el{
+	text-align: center;
+	width: 150px;
+	font-size: 20px;
+	padding-bottom: 1em;
+}
+.nav-el:hover {
+	border-bottom: 4px solid white;
+}
+.nav-el a{
+	text-decoration: none;
+	color: white;
+}
+.logo{
+	font-size: 30px;
+	margin-left: 3%;
+	font-family: 'Roboto', sans-serif;
+}
+.fird{
+	background: url(https://www.grandactive.ru/UploadedFiles/2020/2020-08/b84396d0-6ace-450b-9dc7-289a50ecdbdb.jpg);
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	width: 100%;
+	height: 100%;
+}
+.f-head{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10%;
+}
+.f-txt{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 5%;
+}
+.second{
+	width: 100%;
+	height: 100%;
+	background: url(https://wallpaperheart.com/wp-content/uploads/2018/04/minimalistic-wallpapers-umbrella.jpg);
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.s-head{
+	margin-left: 5%;
+	padding-top: 5%;
+	font-size: 60px;
+	font-family: 'Roboto', sans-serif;
+}
+.s-txt{
+	margin-left: 5%;
+	padding-top: 5%;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.s-txt2{
+	margin-left: 70%;
+	padding-top: 20%;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.third{
+	width: 100%;
+	height: 100%;
+	background: url(https://p4.wallpaperbetter.com/wallpaper/990/267/788/colorful-blurred-spectrum-wallpaper-preview.jpg);
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.t-head{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10%;
+}
+.t-img{
+	padding-top: 3%;
+	padding-left: 15%;
+}
+.fourth{
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+.fo-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fo-img div{
+	padding-top: 5%;
+	margin-left: 2%;
+	text-align: center;
+}
+.fo-head{
+	text-align: center;
+	font-size: 90px;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10%;
+}
+.fiveth{
+	width: 100%;
+	height: 100%;
+	background: #e7e7e7;
+}
+.fi-head{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.container div {
+  background: white;
+}
+.s{
+	font-family: 'Roboto', sans-serif;
+	width: 20%;
+	height: 40%;
+	padding-top: 3%;
+	margin-top: 5%;
+	background: white;
+	margin-left: 15%;
+}
+.s1{
+	font-size: 40px;
+	text-align: center;
+}
+.s2{
+	font-size: 30px;
+	padding-top: 20%;
+	text-align: center;
+}
+.l{
+	font-family: 'Roboto', sans-serif;
+	width: 20%;
+	height: 40%;
+	padding-top: 3%;
+	margin-left: 20%;
+	background: white;
+	margin-right: 15%;
+	margin-top: 5%;
+}
+.l1{
+	font-size: 40px;
+	text-align: center;
+}
+.l2{
+	font-size: 30px;
+	padding-top: 20%;
+	text-align: center;
+}
+.footer{
+	height: 20%;
+	width: 100%;
+	background: black;
+}
+ul.cont{
+	margin: 3px; 
+	padding: 3px; 
+}
+.cont li{
+	display: inline;  
+	margin-right: 3px;  
+	color: white;
+	opacity: 0.4;
+	padding: 5px;  
+}
+.cont{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3%;
+}
+
+
+
+
+
+
+
+
